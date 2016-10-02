@@ -3,7 +3,7 @@
   <head>
     <!-- @include examples/includes/head-content.html -->
 
-    <link rel="stylesheet" href="dist/drawer.css"></link>
+    <link rel="stylesheet" href="dist/y-drawer.css"></link>
   </head>
   <body>
     <main>
@@ -24,7 +24,6 @@
         $drawer = $(drawer).drawer();
 
         $(menu).click(function (e) {
-          e.preventDefault();
           $drawer.drawer('toggle');
         });
       });
